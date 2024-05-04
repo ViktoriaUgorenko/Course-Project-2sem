@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+    <book>
+        <title>Anxious people</title>
+        <author>Fredrik Buckman</author>
+        <year>2020</year>
+        <price>43$</price>
+    </book>
+    <book>
+        <title> Harry Potter and the Philosopher's Stone</title>
+        <author> J.K. Rowling</author>
+        <year>2016</year>
+        <price>67$</price>
+    </book>
+    <book>
+        <title>Martin Eden</title>
+        <author>Jack London</author>
+        <year>2015</year>
+        <price>28$</price>
+    </book>
+    <book>
+        <title>Flowers for Algernon</title>
+        <author> Daniel Keyes</author>
+        <year>2021</year>
+        <price>32$</price>
+    </book>
+    <book>
+        <title>Murder in the middle of winter</title>
+        <author> Agatha Christie</author>
+        <year>2022</year>
+        <price>54$</price>
+    </book>
+    <book>
+        <title> I want to and I will. 6 rules of a happy life</title>
+        <author>  Mikhail Labkovsky</author>
+        <year>2023</year>
+        <price>49$</price>
+    </book>
+    <book>
+        <title>The subtle art of indifference. A paradoxical way to live happily</title>
+        <author>Mark Manson</author>
+        <year>2022</year>
+        <price>34$</price>
+    </book>
+     <book>
+        <title> To myself tenderly</title>
+        <author>  Olga Primachenko</author>
+        <year>2022</year>
+        <price>75$</price>
+    </book>
+     <book>
+        <title>Checkmate</title>
+        <author> Ali Hazelwood</author>
+        <year>2023</year>
+        <price>18$</price>
+    </book>
+    <book>
+        <title>The witcher. Last wish. The Sword of Destiny</title>
+        <author> Andrzej Sapkowski</author>
+        <year>2020</year>
+        <price>57$</price>
+    </book>
+</books>

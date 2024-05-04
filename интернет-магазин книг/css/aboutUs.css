@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #415167;
+  height: 100px;
+}
+
+.menu {
+  margin-top: 25px;
+}
+.menu li {
+  width: 140px;
+  margin-bottom: 26px;
+  margin-left: -4px;
+  display: inline;
+  margin: 20px;
+  margin-top: 10px;
+}
+
+li .menu_href {
+  font-family: "Nunito";
+  font-weight: 200;
+  font-size: 13px;
+  color: #F9FBFF;
+}
+
+ul.menu {
+  list-style-type: none;
+}
+ul.menu li:first-child {
+  margin-bottom: 126px;
+  margin-top: 40px;
+  transition: initial;
+}
+
+a {
+  color: #EDF0F5;
+  text-decoration: none;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 5px;
+  transition: background-size 0.3s;
+}
+a:hover {
+  background-size: 100% 5px;
+  color: #d9d9d9;
+}
+
+.show-mobile-menu {
+  display: block;
+}
+
+.logo_block > a > svg {
+  width: 90px;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.figure1 > img {
+  width: 300px;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+.fgc1 {
+  margin-left: 10%;
+}
+
+.of_the_store {
+  position: relative;
+  background-color: #c7a17c;
+  color: rgb(255, 255, 255) !important;
+  z-index: 1;
+}
+
+.slogan {
+  margin-top: -550px;
+  margin-left: 550px;
+}
+.slogan span {
+  position: relative;
+  font-family: "Montserrat";
+  font-size: 64px;
+  color: #415167;
+  line-height: 68px;
+  z-index: 3;
+  padding: 0 19px 0 13px;
+}
+
+.text_history1 {
+  width: 600px;
+  height: auto;
+  margin-left: 570px;
+  margin-top: 20px;
+}
+
+figcaption {
+  font-family: "Nunito";
+  margin-left: 90px;
+}
+
+p {
+  font-family: "Nunito";
+}
+
+.figure2 {
+  margin-left: 47%;
+}
+.figure2 > img {
+  width: 600px;
+  height: auto;
+}
+
+.about_team {
+  margin-top: 100px;
+}
+
+.text_history2 {
+  width: 400px;
+  height: auto;
+  margin-left: 90px;
+  margin-top: -450px;
+}
+
+.our_mission span {
+  position: relative;
+  font-family: "Montserrat";
+  font-size: 64px;
+  color: #415167;
+  line-height: 68px;
+  z-index: 3;
+  padding: 0 19px 0 13px;
+}
+
+.mission_of_store {
+  position: relative;
+  background-color: #c7a17c;
+  color: rgb(255, 255, 255) !important;
+  z-index: 1;
+}
+
+.slogan_mission {
+  margin-top: -400px;
+  margin-left: 60px;
+}
+
+.figure3 {
+  margin-left: 50%;
+  margin-top: 70px;
+}
+.figure3 > img {
+  width: 560px;
+  height: auto;
+}
+
+.mission_text {
+  width: 500px;
+  height: auto;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+
+.figc3 {
+  margin-left: 25%;
+}
+
+footer {
+  flex-direction: row;
+  background-color: #415167;
+  margin-top: 60px;
+  margin-left: -10px;
+}
+footer p {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Nunito";
+}
+
+.footer_icon {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+.footer_icon a {
+  background-image: none;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 5px;
+  transition: background-size 0.3s;
+  padding: 20px;
+}
+.footer_icon img {
+  height: 30px;
+  width: auto;
+}
+
+.footer_copyright {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Nunito";
+  margin-top: 20px;
+}

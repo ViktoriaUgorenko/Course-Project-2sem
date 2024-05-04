@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="Kursach.css">
+    <link rel="stylesheet" href="css/Kursach.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="media_style.css">
+    <title>BOOKHOME</title>
+</head>
+
+<body>
+    
+    <div class="first_block">
+        <header>
+            <div class="logo_block">
+                <a href="Kursach.html" class="logo_link"><svg width="430" height="274" viewBox="0 0 430 274" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 70C0 67.2386 2.23857 65 5 65H85C93.2843 65 100 71.7157 100 80V100C100 108.284 93.2843 115 85 115C93.2843 115 100 121.716 100 130V150C100 158.284 93.2843 165 85 165H5C2.23858 165 0 162.761 0 160V115V70ZM20 90C20 87.2386 22.2386 85 25 85H75C77.7614 85 80 87.2386 80 90V100C80 102.761 77.7614 105 75 105H25C22.2386 105 20 102.761 20 100V90ZM20 130C20 127.239 22.2386 125 25 125H75C77.7614 125 80 127.239 80 130V140C80 142.761 77.7614 145 75 145H25C22.2386 145 20 142.761 20 140V130Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M235 65C226.716 65 220 71.7157 220 80V150C220 158.284 226.716 165 235 165H305C313.284 165 320 158.284 320 150V80C320 71.7157 313.284 65 305 65H235ZM245 85C242.239 85 240 87.2386 240 90V140C240 142.761 242.239 145 245 145H295C297.761 145 300 142.761 300 140V90C300 87.2386 297.761 85 295 85H245Z" fill="white"/>
+                    <rect x="110" y="65" width="100" height="209" rx="15" fill="white"/>
+                    <path d="M156.898 2.45453C158.716 1.01606 161.284 1.01606 163.102 2.45453L218.872 46.5788C222.59 49.5198 220.51 55.5 215.77 55.5H104.23C99.4901 55.5 97.4105 49.5198 101.128 46.5788L156.898 2.45453Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 179C0 176.239 2.23857 174 5 174H15C17.7614 174 20 176.239 20 179V214H80V179C80 176.239 82.2386 174 85 174H95C97.7614 174 100 176.239 100 179V219V229V269C100 271.761 97.7614 274 95 274H85C82.2386 274 80 271.761 80 269V234H20V269C20 271.761 17.7614 274 15 274H5C2.23857 274 0 271.761 0 269V229V219V179Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M335 174C332.239 174 330 176.239 330 179V189V219V229V259V269C330 271.761 332.239 274 335 274H345H425C427.761 274 430 271.761 430 269V259C430 256.239 427.761 254 425 254H350V234H425C427.761 234 430 231.761 430 229V219C430 216.239 427.761 214 425 214H350V194H425C427.761 194 430 191.761 430 189V179C430 176.239 427.761 174 425 174H345H335Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M225 174C222.239 174 220 176.239 220 179V269C220 271.761 222.239 274 225 274H235C237.761 274 240 271.761 240 269V205.142L266.452 231.594C267.448 232.59 268.76 233.078 270.065 233.058C271.37 233.078 272.682 232.59 273.678 231.594L300 205.272V269C300 271.761 302.239 274 305 274H315C317.761 274 320 271.761 320 269V179C320 176.239 317.761 174 315 174H305C303.387 174 301.953 174.764 301.038 175.949L270.065 206.923L238.678 175.536C238.264 175.122 237.797 174.797 237.298 174.558C236.61 174.202 235.828 174 235 174H225Z" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M335 65C332.239 65 330 67.2386 330 70V160C330 162.761 332.239 165 335 165H345C347.761 165 350 162.761 350 160V125H410V160C410 162.761 412.239 165 415 165H425C427.761 165 430 162.761 430 160V130C430 121.716 423.284 115 415 115C423.284 115 430 108.284 430 100V70C430 67.2386 427.761 65 425 65H415C412.239 65 410 67.2386 410 70V105H350V70C350 67.2386 347.761 65 345 65H335Z" fill="white"/>
+                    </svg>
+                    </a>
+            </div>
+            <div class="header">
+                <nav class="main_menu">
+                    <ul class="menu">
+                        <li><a href="aboutUs.html" class="menu_href">ABOUT US</a></li>
+                        <li><a href="./Kursach.html#catalog" class="menu_href">CATALOG</a></li>
+                        <li><a href="./Kursach.html#giftsets" class="menu_href">GIFTSETS</a></li>
+                        <li><a href="./Kursach.html#footer" class="menu_href">CONTACTS</a></li>
+                        <li><img class="korzina" src="images/CART.svg" alt="Cart"></li>
+                    </ul>
+                </nav>
+                <div class="hamburger-menu">&#9776;</div>
+                <!-- Выпадающее меню -->
+                <nav class="mobile-menu">
+                    <ul class="menu">
+                        <li><a href="aboutUs.html" class="menu_href">ABOUT US</a></li>
+                        <li><a href="./Kursach.html#catalog" class="menu_href">CATALOG</a></li>
+                        <li><a href="./Kursach.html#giftsets" class="menu_href">GIFTSETS</a></li>
+                        <li><a href="./Kursach.html#footer" class="menu_href">CONTACTS</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="video">
+            <video loop muted src="images/185096 (540p).mp4" autoplay> </video>
+        </div>
+        <div class="slogan">
+            <span>YOUR</span><br>
+            <span class="personalized">PERSONALIZED</span><br>
+            <span>BOOK</span>
+        </div>
+
+
+        <!-- вторая страница -->
+        <main>
+        <section class="section" id="book">
+            <div class="section_title">
+                <h1 class="your_personalized_book semibold">
+                    your personalized book
+                </h1>
+                <h1 class="book_build_yourself black">
+                    book build yourself
+                </h1>
+            </div>
+
+            <!-- преимущества -->
+            <div class="advantages">
+                <div class="advantage">
+                    <img src="images/reput.svg" class="icon" alt="assortment">
+                    <h3 class="advantage_title bold">
+                        Assortment
+                    </h3>
+                    <p class="advantage_text light">
+                        A wide selection of books on various topics: from bestsellers and classical literature to
+                        scientific and popular publications.
+                    </p>
+                </div>
+
+                <div class="advantage">
+                    <img src="images/reput.svg" class="icon" alt="print">
+                    <h3 class="advantage_title bold">
+                        Print quality
+                    </h3>
+                    <p class="advantage_text light">
+                        High print quality is important to preserve the value of a literary work and to satisfy the
+                        reader.
+                    </p>
+                </div>
+
+                <div class="advantage">
+                    <img src="images/reput.svg" class="icon" alt="delivery">
+                    <h3 class="advantage_title bold">
+                        Delivery
+                    </h3>
+                    <p class="advantage_text light">
+                        Get your order right at the door! Convenient and fast delivery of goods without unnecessary
+                        hassle.
+                    </p>
+                </div>
+
+                <div class="advantage">
+                    <img src="images/reput.svg" class="icon" alt="reputation">
+                    <h3 class="advantage_title bold">
+                        Reputation
+                    </h3>
+                    <p class="advantage_text light">
+                        Excellent reputation among customers due to the high quality of goods, fast delivery and
+                        professional service.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- catalog -->
+
+        <section class="catalog-book" id="catalog">
+
+            <div class="section_title">
+                <h1 class="choose_your_favorite-semibold">
+                    Choose your favorite
+                </h1>
+                <h1 class="a_good_choice-bold">
+                    A GOOD CHOICE!
+                </h1>
+            </div>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <img class="book_img" src="images/tevognye.jpg" alt="slide">
+                        <div class="book_info">
+                            <div class="info">
+                                <h1 class="book_price">
+                                    43$
+                                </h1>
+                                <h1 class="book_title">
+                                    Anxious people
+                                </h1>
+                                <p class="book_writer light">
+                                    Fredrik Buckman, 2020
+                                </p>
+                            </div>
+                            <div class="book_button">
+                                <a href="form.html">
+                                    <button class="buy_now--active">
+                                        BUY NOW
+                                    </button>
+                                </a>
+                                <a href="aboutBook.html">
+                                <button class="details--disabled">
+                                    DETAILS
+                                </button>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="book_img" src="images/harry_potter.jpg" alt="slide">
+                        <div class="book_info">
+                            <div class="info">
+                                <h1 class="book_price">
+                                    67$
+                                </h1>
+                                <h1 class="book_title">
+                                    Harry Potter and the Philosopher's Stone
+                                </h1>
+                                <p class="book_writer light">
+                                    J.K. Rowling, 2016
+                                </p>
+                            </div>
+                            <div class="book_button">
+                                <a href="form.html">
+                                    <button class="buy_now--active">
+                                        BUY NOW
+                                    </button>
+                                </a>
+                                <button class="details--disabled">
+                                    DETAILS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="book_img" src="images/london.jpg" alt="slide">
+                        <div class="book_info">
+                            <div class="info">
+                                <h1 class="book_price">
+                                    28$
+                                </h1>
+                                <h1 class="book_title">
+                                    Martin Eden
+                                </h1>
+                                <p class="book_writer light">
+                                    Jack London, 2015
+                                </p>
+                            </div>
+                            <div class="book_button">
+                                <a href="aboutBook.html">
+                                    <button class="buy_now--active">
+                                        BUY NOW
+                                    </button>
+                                </a>
+                                <button class="details--disabled">
+                                    DETAILS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="book_img" src="images/eldgernon.jpg" alt="slide">
+                        <div class="book_info">
+                            <div class="info">
+                                <h1 class="book_price">
+                                    32$
+                                </h1>
+                                <h1 class="book_title">
+                                    Flowers for Algernon
+                                </h1>
+                                <p class="book_writer light">
+                                    Daniel Keyes, 2021
+                                </p>
+                            </div>
+                            <div class="book_button">
+                                <a href="form.html">
+                                    <button class="buy_now--active">
+                                        BUY NOW
+                                    </button>
+                                </a>
+                                <button class="details--disabled">
+                                    DETAILS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="book_img" src="images/agata.jpg" alt="slide">
+                        <div class="book_info">
+                            <div class="info">
+                                <h1 class="book_price">
+                                    54$
+                                </h1>
+                                <h1 class="book_title">
+                                    Murder in the middle of winter
+                                </h1>
+                                <p class="book_writer light">
+                                    Agatha Christie, 2022
+                                </p>
+                            </div>
+                            <div class="book_button">
+                                <a href="form.html">
+                                    <button class="buy_now--active">
+                                        BUY NOW
+                                    </button>
+                                </a>
+                                <button class="details--disabled">
+                                    DETAILS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="book_img" src="images/hochy_i_bydy.jpg" alt="slide">
+                        <div class="book_info">
+                            <div class="info">
+                                <h1 class="book_price">
+                                    49$
+                                </h1>
+                                <h1 class="book_title">
+                                    I want to and I will. 6 rules of a happy life
+                                </h1>
+                                <p class="book_writer light">
+                                    Mikhail Labkovsky, 2023
+                                </p>
+                            </div>
+                            <div class="book-button">
+                                <a href="form.html">
+                                    <button class="buy_now--active">
+                                        BUY NOW
+                                    </button>
+                                </a>
+                                <button class="details--disabled">
+                                    DETAILS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="book_img" src="images/pofigizm.jpg" alt="slide">
+                        <div class="book_info">
+                            <div class="info">
+                                <h1 class="book_price">
+                                    34$
+                                </h1>
+                                <h1 class="book_title">
+                                    The subtle art of indifference. A paradoxical way to live happily
+                                </h1>
+                                <p class="book_writer light">
+                                    Mark Manson, 2022
+                                </p>
+                            </div>
+                            <div class="book_button">
+                                <a href="form.html">
+                                    <button class="buy_now--active">
+                                        BUY NOW
+                                    </button>
+                                </a>
+                                <button class="details--disabled">
+                                    DETAILS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="book_img" src="images/k_sebe_negno.jpg" alt="slide">
+                        <div class="book_info">
+                            <div class="info">
+                                <h1 class="book_price">
+                                    75$
+                                </h1>
+                                <h1 class="book_title">
+                                    To myself tenderly
+                                </h1>
+                                <p class="book_writer light">
+                                    Olga Primachenko, 2022
+                                </p>
+                            </div>
+                            <div class="book_button">
+                                <a href="form.html">
+                                    <button class="buy_now--active">
+                                        BUY NOW
+                                    </button>
+                                </a>
+                                <button class="details--disabled">
+                                    DETAILS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="book_img" src="images/shah_i_mat.jpg" alt="slide">
+                        <div class="book_info">
+                            <div class="info">
+                                <h1 class="book_price">
+                                    18$
+                                </h1>
+                                <h1 class="book_title">
+                                    Checkmate
+                                </h1>
+                                <p class="book-writer light">
+                                    Ali Hazelwood, 2023
+                                </p>
+                            </div>
+                            <div class="book_button">
+                                <a href="form.html">
+                                    <button class="buy_now--active">
+                                        BUY NOW
+                                    </button>
+                                </a>
+                                <button class="details--disabled">
+                                    DETAILS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img class="book_img" src="images/vedmak.jpg" alt="slide">
+                        <div class="book_info">
+                            <div class="info">
+                                <h1 class="book_price">
+                                    57$
+                                </h1>
+                                <h1 class="book_title">
+                                    The witcher. Last wish. The Sword of Destiny
+                                </h1>
+                                <p class="book-writer light">
+                                    Andrzej Sapkowski, 2020
+                                </p>
+                            </div>
+                            <div class="book_button">
+                                <a href="form.html">
+                                    <button class="buy_now--active">
+                                        BUY NOW
+                                    </button>
+                                </a>
+                                <button class="details--disabled">
+                                    DETAILS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+
+            </div>
+
+        </section>
+        <!-- giftsets -->
+        <section class="giftset" id="giftsets">
+
+            <h1 class="gift_for_friend semibold">Best Gift For Best Friend</h1>
+            <h1 class="Giftset">Giftset</h1>
+
+
+            <div class="giftset-menu">
+                <div class="tabs">
+                    <div class="tab active-tab" onclick="openTab('tab1')">1</div>
+                    <div class="tab" onclick="openTab('tab2')">2</div>
+                    <div class="tab" onclick="openTab('tab3')">3</div>
+                </div>
+
+                <div id="tab1" class="tab-content active-content">
+                    <div class="giftset_block">
+                        <img src="images/giftset.jpg" class="img_giftset" alt="giftset">
+                        <div class="gift_info">
+                            <p class="giftset_price price">99$</p>
+                            <p class="giftset_title bold">Book gift box "Shadow and Bone"</p>
+                            <p class="giftset_text">The book box "Shadow and Bone" is a thematic atmospheric set with a
+                                book in the title role.
+
+                                Plunge into the world of Lee Bardugo full of mystical dangers, and do not forget to
+                                create the right atmosphere with the rest of the box content.
+
+                                The set includes:
+
+                                1. Lee Bardugo's "Shadow and Bone".
+                                2. A set of "Shadow and Bone" stickers.
+                                3. A set of bookmarks "Shadow and bone" (5 pcs.).
+                                4. Candle "Shadow and bone".
+                                5. Full description</p>
+                            <div class="giftset_icon">
+                                <div>
+                                    <img src="images/pen.svg" alt="icon">
+                                    <p class="giftset_writer">
+                                        Lee Bardugo, 2020</p>
+                                </div>
+                                <div>
+                                    <img src="images/gift.svg" alt="icon">
+                                    <p class="giftset_writer">
+                                        For any occasion
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="giftset_buttons">
+                                <a href="form.html">
+                                    <button class="buy_now--active">
+                                        BUY NOW
+                                    </button>
+                                </a>
+                                <button class="details--disabled">
+                                    DETAILS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab2" class="tab-content">
+                    <div class="giftset_block">
+                        <img src="images/giftset2.jpg" class="img_giftset" style="filter: hue-rotate(60deg);" alt="giftset">
+                        <div class="giftset_info">
+                            <p class="giftset_price price">119$</p>
+                            <p class="giftset_title bold">Book gift box "Blessing of the Celestials. Volume 6"</p>
+                            <p class="giftset_text">Book box "Blessing of the Celestials. Volume 6" is a thematic
+                                atmospheric set with a book in the title role. The last book in the series with your
+                                favorite characters. It will be a great gift for fans of the universe. In the set, along
+                                with the main content, there is a secret gift.
+
+                                The set includes:
+
+                                1.Moxiang Tongxiu "The blessing of the celestials. Volume 6".
+                                2. A notebook in a cage "Blessing of the celestials. Winter" (A5).
+                                3.A stand for the "Blessing of the Celestials" mug.
+                                4.A set of vinyl stickers "Blessing of the celestials".</p>
+                            <div class="giftset_icon text">
+                                <div>
+                                    <img src="images/pen.svg" alt="icon">
+                                    <p class="giftset_writer">
+                                        Moxiang Tongxiu, 2023</p>
+                                </div>
+                                <div>
+                                    <img src="images/gift.svg" alt="icon">
+                                    <p class="giftset_writer">
+                                        For any occasion</p>
+                                </div>
+                            </div>
+                            <div class="giftset_buttons">
+                                <a href="form.html">
+                                    <button class="buy_now--active">
+                                        BUY NOW
+                                    </button>
+                                </a>
+                                <button class="details--disabled">
+                                    DETAILS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab3" class="tab-content">
+                    <div class="giftset_block">
+                        <img src="images/giftset3.jpg" class="img_giftset" style="filter: hue-rotate(180deg);" alt="giftset">
+                        <div class="giftset_info">
+                            <p class="giftset_price price">109$</p>
+                            <p class="giftset_title bold">Book gift box "Secrets of the Tarot"</p>
+                            <p class="giftset_text">The book box "Secrets of the Tarot" is a thematic atmospheric set
+                                with a book in the title role. Immerse yourself in the world of Tarot cards and explore
+                                the future. It will be a great gift for those who are interested in esotericism.
+
+                                The set includes:
+
+                                1.Konstantin Lavo, Nina Frolova "Konstantin Lavo, Nina Frolova".
+                                2.A set of Tarot stickers.
+                                3.Notepad "Affirmation" (A5).
+                                4.Decorative conical candle "Golden".</p>
+                            <div class="giftset_icon text">
+                                <div>
+                                    <img src="images/pen.svg" alt="icon">
+                                    <p class="giftset_writer">
+                                        Konstantin Lavo, Nina Frolova, 2023</p>
+                                </div>
+                                <div>
+                                    <img src="images/gift.svg" alt="icon">
+                                    <p class="giftset_writer">
+                                        For any occasion</p>
+                                </div>
+                            </div>
+                            <div class="giftset_buttons">
+                                <a href="form.html">
+                                    <button class="buy_now--active">
+                                        BUY NOW
+                                    </button>
+                                </a>
+                                <button class="details--disabled">
+                                    DETAILS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+        </main>
+
+        <!-- футер -->
+
+
+        <footer id="footer">
+            <div class="footer_block">
+                <div class="footer-left">
+                    <div class="footer_title">
+                        <h1 class="choose_your_favorite">Choose Your Favorite</h1>
+                        <h1 class="a_good_choice">A GOOD CHOICE</h1>
+                    </div>
+                    <div class="footer_img">
+                        <img src="images/books.jpg" alt="img_foot">
+                    </div>
+                    <div class="footer_text">
+                        <p>
+                            Contact us, ask about our products, recommendations on their consumption, and our expert
+                            colleague will respond within 24 hours!
+                        </p>
+                    </div>
+                    <div class="footer_icon">
+                        <a href="https://www.facebook.com/profile.php?id=100055772753826"> <img src="images/icon_facebook.svg" alt="icon"></a>
+                        <a href="https://web.telegram.org/a/"><img src="images/icon_telegram.svg" alt="icon"></a>
+                        <a href="https://www.instagram.com/vika_ugorenko/?hl=ru"> <img src="images/icon_instagram.svg" alt="icon"></a>
+                    </div>
+                </div>
+
+                <div class="footer_form">
+                    <form>
+                        <div class="form_fields regular">
+                            <input class="field" name="name" placeholder="Name">
+                            <input class="field" name="email" type="email" placeholder="E-mail">
+                            <input class="field " name="telefon" type="tel" placeholder="Number">
+                            <input class="message" name="message" type="text" placeholder="Write to us and ask">
+                            <button class="form_fields_button">
+                                SEND
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <div class="footer_copyright">
+                <span>© BOOK HOME - 2024</span>
+            </div>
+        </footer>
+
+
+ 
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 'auto',
+                slidesPerGroup: 1,
+                loop: false,
+                grid: {
+                    rows: 2
+                },
+                spaceBetween: 32,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: '.swiper-button-prev'
+                },
+    
+            });
+        </script>
+
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+  
+        const hamburgerMenu = document.querySelector('.hamburger-menu');
+        const mobileMenu = document.querySelector('.mobile-menu');
+
+        hamburgerMenu.addEventListener('click', function() {
+         
+            mobileMenu.classList.toggle('show-mobile-menu');
+        });
+    });
+</script>
+
+
+
+
+
+
+        
+ <!-- подлкючение хмл -->
+ <script>
+  
+    function loadXMLDoc(url, callback) {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                callback(xmlhttp.responseXML);
+            }
+        }
+        xmlhttp.open("GET", url, true);
+        xmlhttp.send();
+    }
+
+  
+    function processData(xml) {
+   
+        console.log(xml);
+    }
+
+    loadXMLDoc("books.xml", processData);
+</script>
+        
+
+
+
+        <script>
+            function openTab(tabName) {
+
+                var tabs = document.querySelectorAll('.tab-content');
+                tabs.forEach(function (tab) {
+                    tab.style.display = 'none';
+                });
+
+                var tabButtons = document.querySelectorAll('.tab');
+                tabButtons.forEach(function (button) {
+                    button.classList.remove('active-tab');
+                });
+
+                document.getElementById(tabName).style.display = 'block';
+                event.currentTarget.classList.add('active-tab');
+            }
+
+            openTab('tab1');
+        </script>
+</body>

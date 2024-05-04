@@ -1,0 +1,156 @@
+@media screen and (max-width: 426px) {
+    .book-description{
+        width: 300px;
+    }
+    .details{
+        margin-top: 500px;
+        margin-left: -350px;
+    }
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #415167;
+    height: 100px;
+    width: 100%;
+}
+.menu li {
+   
+    width: 140px;
+    margin-bottom: 26px;
+    margin-left: -4px;
+    display: inline;
+    margin: 20px;
+    margin-top: 10px;
+}
+li .menu_href{
+    font-family: 'Nunito';
+    font-weight: 200;
+    font-size: 13px;
+    color: #F9FBFF;
+}
+ul.menu{
+    list-style-type: none;
+}
+ul.menu li:first-child {
+    margin-bottom: 126px;
+    margin-top: 40px;
+    transition: initial;
+}
+a {
+    color: #EDF0F5;
+    text-decoration: none;
+   
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 5px;
+    transition: background-size .3s;
+}
+a:hover {
+    background-size: 100% 5px;
+    color: #d9d9d9;
+}
+.logo_link > svg {
+    width: 90px;
+    height: auto;
+    margin-left: 20px;
+    margin-top:20px;
+}
+body {
+    font-family: 'Nunito';
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.book-info {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Один столбец для обложки, один столбец для информации */
+    grid-column-gap: 60px;
+    margin-top: 60px; /* Уменьшенный отступ */
+}
+.book-info img {
+    width: 300px;
+    height: auto;
+    margin: 0;
+}
+.book-info .details {
+    display: grid;
+    grid-template-rows: repeat(7, auto); /* Семь строк для информации */
+    grid-row-gap: 5px;
+}
+.book-info h2 {
+    font-size: 24px;
+    margin: 0;
+}
+.book-info p {
+    font-size: 18px;
+    margin: 0;
+}
+.book-info button {
+    margin-top: 10px;
+}
+.book-description {
+    grid-column: span 2; /* Описание занимает два столбца */
+    margin-top: 10px; /* Уменьшенный отступ */
+}
+.book-info img:hover{
+    transform: scale(1.1);
+}
+button{
+    border-radius: 19px;
+    width: 200px;
+    height: 30px;
+    background-color: #c7a17a;
+    color: #F9FBFF;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    margin-top: 60px;
+    cursor: pointer;
+    font-size: 'Montserrat';
+}
+h2, h3{
+    font-family: 'Montserrat';
+}
+/* footer */
+
+footer{
+    flex-direction: row;
+    background-color: #415167;
+    margin-top: 60px;
+    margin-left: -10px;
+}
+.footer_icon{
+     text-align: center;
+     margin-top: 30px;
+     padding-top: 10px;
+
+}
+.footer_icon a{
+    background-image:none;
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 5px;
+    transition: background-size .3s;
+    padding: 20px;
+}
+footer p{
+    text-align: center;
+    color:#ffffff;
+    font-family: 'Nunito';
+}
+.footer_copyright{
+    color:#ffffff;
+    text-align: center;
+    font-family: 'Nunito';
+}
+.footer_icon img {
+    height: 30px;
+    width: auto;
+}
